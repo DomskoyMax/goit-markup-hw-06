@@ -758,7 +758,7 @@ address {
 }
 .modal {
   width: 528px;
-  min-height: 581px;
+  max-height: 581px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -799,7 +799,7 @@ address {
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 .modal-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -811,7 +811,7 @@ address {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  padding-left: 36px;
+  padding-left: 40px;
   outline: none;
 }
 .modal-close-btn:hover .modal-soc-icon,
@@ -826,8 +826,9 @@ address {
   fill: #2196f3;
 }
 .modal-field {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
+
 .modal-input::placeholder {
   font-size: 12px;
   line-height: 1.17x;
@@ -839,7 +840,7 @@ address {
 }
 .input-icon {
   position: absolute;
-  left: 12px;
+  left: 15px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -906,4 +907,5 @@ address {
 }
 .modal-field-check {
   padding-left: 12px;
+  margin-top: 20px;
 }
